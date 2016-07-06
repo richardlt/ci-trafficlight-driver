@@ -4,7 +4,7 @@
   "description": "A npm module to drive usb trafficlight",
   "main": "src/ci-trafficlight-driver.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha tests/**/*.test.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,10 @@
   "dependencies": {
     "node-hid": "^0.5.1",
     "winston": "^2.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "sinon": "^1.17.4"
   }
 }
