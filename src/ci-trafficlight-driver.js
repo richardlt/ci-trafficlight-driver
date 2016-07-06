@@ -6,9 +6,9 @@ winston.level = 'debug';
 
 module.exports = {
 
-    init: function(delay) {
-        winston.info('[CiTrafficlightDriver][init] Init trafficlight driver');
-        return new Driver(delay);
-    }
+  init: function(delay) {
+    winston.info('[CiTrafficlightDriver][init] Init trafficlight driver');
+    return new Driver(delay);
+  }
 
 };
